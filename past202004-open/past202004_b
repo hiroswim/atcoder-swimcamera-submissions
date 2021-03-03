@@ -1,0 +1,12 @@
+# https://atcoder.jp/contests/past202004-open/submissions/20634329
+S = input()
+a = S.count('a')
+b = S.count('b')
+c = S.count('c')
+M = max([a,b,c])
+if (a==M):
+  print('a')
+elif (b==M):
+  print('b')
+else :
+  print('c')
